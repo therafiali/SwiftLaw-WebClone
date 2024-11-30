@@ -1,4 +1,5 @@
 import HeroSection from '@/components/Hero/HeroSection'
+import MyFeatures from '@/components/KeyFeatures/MyFeatures'
 import MyPartners from '@/components/Patners/MyPartners'
 
 export default function Home () {
@@ -6,6 +7,7 @@ export default function Home () {
     <section className=''>
       <HeroSection />
       <MyPartners/>
+      <MyFeatures/>
     </section>
   )
 }
