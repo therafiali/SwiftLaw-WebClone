@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import {Inter} from "next/font/google";
+import {Inter_Tight} from "next/font/google";
 import "./globals.css";
+import NavbarApp from "@/components/Navbar/Navbar";
 
-const geistSans = Inter({
+const geistSans = Inter_Tight({
 subsets:["latin"],
   weight: ["100","200","300","400","500","600","700","800","900"],
 });
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans}  antialiased`}
       >
+        <NavbarApp/>
         {children}
       </body>
     </html>

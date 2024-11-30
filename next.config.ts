@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.tryswiftlaw.com',
+        port: '',
+        pathname: '/_next/image?url=%2Fdashboard.png&w=3840&q=75',
+      },
+    ],
+  },
+}
