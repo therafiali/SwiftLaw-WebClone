@@ -1,3 +1,4 @@
+import Blog from '@/components/Event-Blog/Blog'
 import Faq from '@/components/FAQ/Faq'
 import HeroSection from '@/components/Hero/HeroSection'
 import MyFeatures from '@/components/KeyFeatures/MyFeatures'
@@ -14,6 +15,7 @@ export default function Home () {
       <Feedback/>
       <PricingSection/>
       <Faq/>
+      <Blog/>
     </section>
   )
 }
