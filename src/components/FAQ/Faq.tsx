@@ -1,4 +1,10 @@
 import React from 'react'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger
+} from '@/components/ui/accordion'
 
 const Faq = () => {
   return (
@@ -14,17 +20,15 @@ const Faq = () => {
         </div>
         <div className='mx-auto my-12 md:max-w-[800px]'>
           <div className='flex w-full flex-col items-center justify-center space-y-2'>
-            <div className='w-full border rounded-lg overflow-hidden'>
-              <h3 className='flex'></h3>
-              <div className='overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down'></div>
-              <div className='pb-4 pt-0 px-4'>
-                <span>
-                  SwiftLaw is a Microsoft Word Add-in that allows lawyers to
-                  understand, edit, draft, and review contracts with ease.
-                  Lawyers are able to leverage firm precedents/playbooks to
-                  fine-tune their drafting and as well as do legal research.
-                </span>
-              </div>
+            <div className='w-full border rounded-lg overflow-hidden px-4'>
+              <Accordion type='single' collapsible>
+                <AccordionItem value='item-1'>
+                  <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                  <AccordionContent>
+                    Yes. It adheres to the WAI-ARIA design pattern.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
           </div>
         </div>
