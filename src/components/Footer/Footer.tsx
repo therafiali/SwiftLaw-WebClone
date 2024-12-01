@@ -8,7 +8,7 @@ const Footer = () => {
           <span className='text-sm tracking-tight text-foreground'>
             Copyright © {/* */}2024{/* */}{' '}
             <a className='cursor-pointer' href='/'>
-              SwiftLaw
+              YourMunshi
             </a>
             , Inc.
           </span>
