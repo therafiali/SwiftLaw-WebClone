@@ -16,17 +16,17 @@ const HeroSection = () => {
   return (
     <section className=' '>
       <div className='relative flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8 '>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center '>
           <Link
             href={''}
             style={{ opacity: 1, willChange: 'auto', transform: 'none' }}
             className='flex  w-auto items-center justify-center space-x-2 rounded-full bg-primary/20 px-2 py-1 ring-1 ring-accent whitespace-pre'
           >
-            <div className='w-fit rounded-full bg-accent px-2 py-0.5 text-center text-xs font-medium text-primary sm:text-sm '>
-              📣 Blog Post
+            <div className='w-fit rounded-full bg-accent px-2 pt-1 text-center text-xs font-medium text-primary sm:text-sm flex justify-center items-center '>
+              <span className=''>📣 Blog Post</span>
             </div>
-            <p className='text-xs font-medium text-primary sm:text-sm '>
-              Is ChatGPT Really Safe for Law?
+            <p className='text-xs font-medium text-primary sm:text-sm pt-1'>
+              <span>Is ChatGPT Really Safe for Law?</span>
             </p>
 
             <Foo />

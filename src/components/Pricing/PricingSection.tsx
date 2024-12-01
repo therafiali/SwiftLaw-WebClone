@@ -139,7 +139,7 @@ const PricingSection = () => {
                 billed monthly
               </p>
               <ul className='mt-5 gap-2 flex flex-col'>
-              {StandardPlan.map((feature, index) => (
+                {StandardPlan.map((feature, index) => (
                   <li key={index} className='flex items-center'>
                     <Right />
                     <span>{feature.text}</span>
@@ -182,7 +182,7 @@ const PricingSection = () => {
                 billed monthly
               </p>
               <ul className='mt-5 gap-2 flex flex-col'>
-              {PrimiumPlan.map((feature, index) => (
+                {PrimiumPlan.map((feature, index) => (
                   <li key={index} className='flex items-center'>
                     <Right />
                     <span>{feature.text}</span>
