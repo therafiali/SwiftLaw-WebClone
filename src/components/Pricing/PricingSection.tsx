@@ -1,5 +1,6 @@
 import React from 'react'
 import { Right } from '../Hero/HeroSvg'
+import Link from 'next/link'
 
 const BasicPlan = [
   { text: '1 User' },
@@ -84,12 +85,12 @@ const PricingSection = () => {
                 ))}
               </ul>
               <hr className='w-full my-4'></hr>
-              <a
+              <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
                 href='/'
               >
                 Subscribe
-              </a>
+              </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 A basic plan to get started
               </p>
@@ -140,12 +141,12 @@ const PricingSection = () => {
                 ))}
               </ul>
               <hr className='w-full my-4' />
-              <a
+              <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-primary text-white'
                 href='/'
               >
                 Subscribe
-              </a>
+              </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 Our full suite of AI-powered features
               </p>
@@ -176,12 +177,12 @@ const PricingSection = () => {
                 ))}
               </ul>
               <hr className='w-full my-4' />
-              <a
+              <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
                 href='/'
               >
                 Book a Call
-              </a>
+              </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 Tailored for large firms and enterprises
               </p>
@@ -219,12 +220,12 @@ const PricingSection = () => {
                 ))}
               </ul>
               <hr className='w-full my-4'></hr>
-              <a
+              <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
                 href='/'
               >
                 Subscribe
-              </a>
+              </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 A basic plan to get started
               </p>
@@ -275,12 +276,12 @@ const PricingSection = () => {
                 ))}
               </ul>
               <hr className='w-full my-4' />
-              <a
+              <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-primary text-white'
                 href='/'
               >
                 Subscribe
-              </a>
+              </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 Our full suite of AI-powered features
               </p>
@@ -318,12 +319,12 @@ const PricingSection = () => {
                 ))}
               </ul>
               <hr className='w-full my-4' />
-              <a
+              <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
                 href='/'
               >
                 Book a Call
-              </a>
+              </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 Tailored for large firms and enterprises
               </p>
