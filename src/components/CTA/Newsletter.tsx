@@ -10,7 +10,7 @@ const Newsletter = () => {
               Ready to get started?
             </h2>
             <h3 className='mx-auto mt-4 max-w-xs text-3xl font-semibold sm:max-w-none sm:text-4xl md:text-5xl'>
-              Use SwiftLaw to empower your firm with AI.
+              Use YourMunshi to empower your firm with AI.
             </h3>
           </div>
           <div className='flex flex-col w-full sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 pt-4'>
