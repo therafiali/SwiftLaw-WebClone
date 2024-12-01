@@ -60,14 +60,10 @@ const PricingSection = () => {
           </label>
           <span className='ml-2 font-semibold'>Yearly</span>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 sm:2 gap-4'>
+        <div className='grid grid-cols-1  md:grid-cols-3    gap-4 md:gap-4'>
           <div
-            style={{
-              opacity: 1,
-              transform: 'translateX(30px) scale(0.94)',
-              willChange: 'auto'
-            }}
-            className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-right'
+            style={{ opacity: 1, willChange: 'auto' }}
+            className=' rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0  md:translate-x-0 md:translate-y-0 md:-translate-z-[50px] md:rotate-y-[10deg] origin-right md:transform scale-[0.94] '
           >
             <div>
               <p className='text-base font-semibold text-muted-foreground'>
@@ -159,10 +155,9 @@ const PricingSection = () => {
             </div>
           </div>
           <div
-            className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-left'
+            className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-left transform scale-[0.94] md:translate-x-[-30px] md:scale-[1]'
             style={{
               opacity: 1,
-              transform: 'translateX(-30px) scale(0.94)',
               willChange: 'auto'
             }}
           >

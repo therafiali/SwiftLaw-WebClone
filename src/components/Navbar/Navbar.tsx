@@ -14,7 +14,7 @@ export default function NavbarApp () {
     <>
       <Navbar
         className='
-        fixed top-0 left-0 right-0 z-10 flex justify-between items-center px-8 py-4 
+        fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-8 py-4 
         backdrop-blur-md bg-white/30 border border-white/40 '
         isBordered
       >
