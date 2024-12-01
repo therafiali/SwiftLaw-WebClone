@@ -61,10 +61,7 @@ const PricingSection = () => {
           <span className='ml-2 font-semibold'>Yearly</span>
         </div>
         <div className='grid md:hidden grid-cols-1  md:grid-cols-3  gap-4'>
-          <div
-         
-            className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-right'
-          >
+          <div className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-right'>
             <div>
               <p className='text-base font-semibold text-muted-foreground'>
                 BASIC
@@ -89,7 +86,7 @@ const PricingSection = () => {
               <hr className='w-full my-4'></hr>
               <a
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
-                href='https://calendly.com/YourMunshi/YourMunshi-ai-drafting-assistant-onboarding'
+                href='/'
               >
                 Subscribe
               </a>
@@ -145,7 +142,7 @@ const PricingSection = () => {
               <hr className='w-full my-4' />
               <a
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-primary text-white'
-                href='https://calendly.com/YourMunshi/YourMunshi-ai-drafting-assistant-onboarding'
+                href='/'
               >
                 Subscribe
               </a>
@@ -154,10 +151,7 @@ const PricingSection = () => {
               </p>
             </div>
           </div>
-          <div
-            className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-left'
-   
-          >
+          <div className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-left'>
             <div>
               <p className='text-base font-semibold text-muted-foreground'>
                 PREMIUM
@@ -184,7 +178,7 @@ const PricingSection = () => {
               <hr className='w-full my-4' />
               <a
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
-                href='https://calendly.com/YourMunshi/YourMunshi-ai-drafting-assistant-onboarding'
+                href='/'
               >
                 Book a Call
               </a>
@@ -227,7 +221,7 @@ const PricingSection = () => {
               <hr className='w-full my-4'></hr>
               <a
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
-                href='https://calendly.com/YourMunshi/YourMunshi-ai-drafting-assistant-onboarding'
+                href='/'
               >
                 Subscribe
               </a>
@@ -283,7 +277,7 @@ const PricingSection = () => {
               <hr className='w-full my-4' />
               <a
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-primary text-white'
-                href='https://calendly.com/YourMunshi/YourMunshi-ai-drafting-assistant-onboarding'
+                href='/'
               >
                 Subscribe
               </a>
@@ -326,7 +320,7 @@ const PricingSection = () => {
               <hr className='w-full my-4' />
               <a
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
-                href='https://calendly.com/YourMunshi/YourMunshi-ai-drafting-assistant-onboarding'
+                href='/'
               >
                 Book a Call
               </a>
