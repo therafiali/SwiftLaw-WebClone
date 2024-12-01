@@ -1,4 +1,31 @@
 import React from 'react'
+import { Right } from '../Hero/HeroSvg'
+
+const BasicPlan = [
+  { text: '1 User' },
+  { text: '10 Questions per day' },
+  { text: 'Feedback Option' },
+  { text: 'Email Support' }
+]
+
+const StandardPlan = [
+  { text: '1 User' },
+  { text: '30 Questions per day' },
+  { text: 'Feedback Option' },
+  { text: 'Email Support' },
+  { text: 'Chat Support' },
+  { text: 'Upload Documents' }
+]
+
+const PrimiumPlan = [
+  { text: '1 User' },
+  { text: 'Unlimited' },
+  { text: 'Access New Features' },
+  { text: 'Feedback Option' },
+  { text: 'Email Support' },
+  { text: 'Chat Support' },
+  { text: 'Upload Documents' }
+]
 
 const PricingSection = () => {
   return (
@@ -48,67 +75,20 @@ const PricingSection = () => {
               </p>
               <p className='mt-6 flex items-center justify-center gap-x-2'>
                 <span className='text-5xl font-bold tracking-tight text-foreground'>
-                  $99
+                  Free
                 </span>
                 <span className='text-sm font-semibold leading-6 tracking-wide text-muted-foreground'>
                   / seat / month
                 </span>
               </p>
-              <p className='text-xs leading-5 text-muted-foreground'>
-                billed monthly
-              </p>
+              <p className='text-xs leading-5 text-muted-foreground'>Forever</p>
               <ul className='mt-5 gap-2 flex flex-col'>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>AI-powered review, editing, and drafting</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Upload precedents and playbooks</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Legal Research</span>
-                </li>
+                {BasicPlan.map((feature, index) => (
+                  <li key={index} className='flex items-center'>
+                    <Right />
+                    <span>{feature.text}</span>
+                  </li>
+                ))}
               </ul>
               <hr className='w-full my-4'></hr>
               <a
@@ -149,7 +129,7 @@ const PricingSection = () => {
               </p>
               <p className='mt-6 flex items-center justify-center gap-x-2'>
                 <span className='text-5xl font-bold tracking-tight text-foreground'>
-                  $199
+                  1500
                 </span>
                 <span className='text-sm font-semibold leading-6 tracking-wide text-muted-foreground'>
                   / seat / {/* */}month
@@ -159,91 +139,12 @@ const PricingSection = () => {
                 billed monthly
               </p>
               <ul className='mt-5 gap-2 flex flex-col'>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>AI-powered review, editing, and drafting</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Upload precedents and playbooks</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Legal Research</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>AI-powered contract automation</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Web application for client form storage</span>
-                </li>
+              {StandardPlan.map((feature, index) => (
+                  <li key={index} className='flex items-center'>
+                    <Right />
+                    <span>{feature.text}</span>
+                  </li>
+                ))}
               </ul>
               <hr className='w-full my-4' />
               <a
@@ -267,11 +168,11 @@ const PricingSection = () => {
           >
             <div>
               <p className='text-base font-semibold text-muted-foreground'>
-                ENTERPRISE
+                PREMIUM
               </p>
               <p className='mt-6 flex items-center justify-center gap-x-2'>
                 <span className='text-5xl font-bold tracking-tight text-foreground'>
-                  Custom
+                  2500
                 </span>
                 <span className='text-sm font-semibold leading-6 tracking-wide text-muted-foreground'>
                   / seat / {/* */}month
@@ -281,125 +182,12 @@ const PricingSection = () => {
                 billed monthly
               </p>
               <ul className='mt-5 gap-2 flex flex-col'>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>AI-powered review, editing, and drafting</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Advanced research capabilities</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>AI-powered contract automation</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Web application for CLM</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Custom integrations</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>White-glove onboarding &amp; support</span>
-                </li>
-                <li className='flex items-center'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    width={24}
-                    height={24}
-                    viewBox='0 0 24 24'
-                    fill='none'
-                    stroke='currentColor'
-                    strokeWidth={2}
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    className='lucide lucide-check mr-2 h-4 w-4 text-primary'
-                  >
-                    <path d='M20 6 9 17l-5-5' />
-                  </svg>
-                  <span>Dedicated account manager</span>
-                </li>
+              {PrimiumPlan.map((feature, index) => (
+                  <li key={index} className='flex items-center'>
+                    <Right />
+                    <span>{feature.text}</span>
+                  </li>
+                ))}
               </ul>
               <hr className='w-full my-4' />
               <a

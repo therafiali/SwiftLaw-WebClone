@@ -1,9 +1,18 @@
+'use client'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { Foo, PlayButton } from './HeroSvg'
 import MyButton from '../shared/MyButton'
 
 const HeroSection = () => {
+  // State to toggle between showing the image or the video
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false)
+
+  // Function to handle play button click
+  const handlePlayClick = () => {
+    setIsVideoPlaying(true) // Show the video and hide the image
+  }
+
   return (
     <section className=' '>
       <div className='relative flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8 '>
@@ -54,24 +63,50 @@ const HeroSection = () => {
           className='relative mx-auto flex w-full items-center justify-center'
         >
           <div className='class="relative border rounded-lg shadow-lg max-w-screen-lg mt-16"'>
-            <div className='relative cursor-pointer group rounded-md p-2 ring-1 ring-slate-200/50 dark:bg-gray-900/70 dark:ring-white/10 backdrop-blur-md'>
-              <img
-                src='https://www.tryswiftlaw.com/_next/image?url=%2Fdashboard.png&w=3840&q=75'
-                alt=''
-                width={1920}
-                height={1080}
-              />
-              <div className='absolute inset-0 flex items-center justify-center group-hover:scale-100 scale-[0.9] transition-all duration-200 ease-out rounded-2xl'>
-                <div className='z-30 bg-primary/10 flex items-center justify-center rounded-full backdrop-blur-md size-28'>
-                  <div className='flex items-center justify-center bg-gradient-to-b from-primary/30 to-primary shadow-md rounded-full size-20 transition-all ease-out duration-200 relative group-hover:scale-[1.2] scale-100'>
-                    <PlayButton />
+            {/* If isVideoPlaying is false, show the image */}
+            {!isVideoPlaying && (
+              <div className='relative cursor-pointer group rounded-md p-2 ring-1 ring-slate-200/50 dark:bg-gray-900/70 dark:ring-white/10 backdrop-blur-md'>
+                <img
+                  src='https://www.tryswiftlaw.com/_next/image?url=%2Fdashboard.png&w=3840&q=75'
+                  alt=''
+                  width={1920}
+                  height={1080}
+                />
+                <div className='absolute inset-0 flex items-center justify-center group-hover:scale-100 scale-[0.9] transition-all duration-200 ease-out rounded-2xl'>
+                  <div className='z-30 bg-primary/10 flex items-center justify-center rounded-full backdrop-blur-md size-28'>
+                    <div className='flex items-center justify-center bg-gradient-to-b from-primary/30 to-primary shadow-md rounded-full size-20 transition-all ease-out duration-200 relative group-hover:scale-[1.2] scale-100'>
+                      <div onClick={handlePlayClick}>
+                        <PlayButton />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
+
+            {/* If isVideoPlaying is true, show the video */}
+            {isVideoPlaying && (
+              <div className='relative'>
+                <video
+                  width='100%'
+                  height='auto'
+                  controls
+                  autoPlay
+                  className='rounded-lg shadow-lg'
+                >
+                  <source
+                    src='video.mp4' // Replace with actual video URL
+                    type='video/mp4'
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            )}
           </div>
         </div>
-        <div className='pointer-events-none absolute inset-x-0 -bottom-12 h-1/3 bg-gradient-to-t from-background via-background to-transparent lg:h-1/4'></div>
+        {!isVideoPlaying && (
+          <div className='pointer-events-none absolute inset-x-0 -bottom-12 h-1/3 bg-gradient-to-t from-background via-background to-transparent lg:h-1/4'></div>
+        )}
       </div>
     </section>
   )
