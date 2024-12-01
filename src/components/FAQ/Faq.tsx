@@ -57,7 +57,7 @@ const Faq = () => {
                 {faqsList.map((faq, index) => (
                   <div key={index}   className='w-full border rounded-lg overflow-hidden px-4 m-2'>
                     <AccordionItem  value={`item-${index + 1}`}>
-                      <AccordionTrigger>{faq.q}</AccordionTrigger>
+                      <AccordionTrigger className='text-left'>{faq.q}</AccordionTrigger>
                       <AccordionContent>{faq.a}</AccordionContent>
                     </AccordionItem>
                   </div>

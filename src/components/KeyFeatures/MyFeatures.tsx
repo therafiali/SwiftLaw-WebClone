@@ -77,10 +77,10 @@ const MyFeatures = () => {
           <div className='container mx-auto'>
             <div className='max-w-6xl mx-auto'>
               <div>
-                <div className='hidden md:flex order-1 md:order-[0] justify-start'>
+                <div className='flex order-1 md:order-[0] justify-start'>
                   <div
                     data-orientation='vertical'
-                    className='grid md:grid-cols-4 gap-x-10 py-8'
+                    className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-10 py-8'
                   >
                     {featuredData.map((feature, index) => (
                       <div
