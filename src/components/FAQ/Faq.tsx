@@ -68,8 +68,8 @@ const Faq = () => {
         </div>
         <h4 className='mb-12 text-center text-sm font-medium tracking-tight text-foreground/80'>
           Still have questions? Email us at{' '}
-          <a href='mailto:saketh@tryswiftlaw.com' className='underline'>
-            saketh@tryswiftlaw.com
+          <a href='mailto:support@yourmunshi.com' className='underline'>
+            support@yourmunshi.com
           </a>
         </h4>
       </div>
