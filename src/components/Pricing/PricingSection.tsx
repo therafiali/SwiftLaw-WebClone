@@ -36,7 +36,7 @@ const PricingSection = () => {
             PRICING
           </h2>
           <h3 className='mx-auto mt-4 max-w-xs text-3xl font-semibold sm:max-w-none sm:text-4xl md:text-5xl'>
-            Choose the plan that's right for you{' '}
+            Choose the plan that&apos;s right for you{' '}
           </h3>
         </div>
         <div className='flex justify-center mb-10'>

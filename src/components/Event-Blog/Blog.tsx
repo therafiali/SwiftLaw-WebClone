@@ -5,7 +5,7 @@ import b3 from '@/assets/blogs/images/b3.png'
 import b4 from '@/assets/blogs/images/b4.png'
 import b5 from '@/assets/blogs/images/b5.png'
 import b6 from '@/assets/blogs/images/b6.png'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 
 const Blog = () => {
   const blogData = [

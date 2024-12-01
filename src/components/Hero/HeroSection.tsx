@@ -46,7 +46,7 @@ const HeroSection = () => {
               style={{ opacity: 1, willChange: 'auto', transform: 'none' }}
               className='inline-block px-1 md:px-2 text-balance font-semibold'
             >
-              YourMunshi Pakistan's First AI Legal Assistant
+              YourMunshi Pakistan&apos;s First AI Legal Assistant
             </span>
           </h1>
         </div>

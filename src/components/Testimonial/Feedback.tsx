@@ -36,7 +36,7 @@ const Feedback = () => {
                         className=''
                       >
                         <h4 className='text-1xl font-semibold max-w-lg mx-auto px-10'>
-                          I can't believe how much productivity leverage I'm
+                          I can&apos;t believe how much productivity leverage I&apos;m
                           getting
                         </h4>
                       </div>

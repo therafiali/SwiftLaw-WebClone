@@ -55,8 +55,8 @@ const Faq = () => {
             <div className='w-full'>
               <Accordion type='single' collapsible>
                 {faqsList.map((faq, index) => (
-                  <div className='w-full border rounded-lg overflow-hidden px-4 m-2'>
-                    <AccordionItem key={index} value={`item-${index + 1}`}>
+                  <div key={index}   className='w-full border rounded-lg overflow-hidden px-4 m-2'>
+                    <AccordionItem  value={`item-${index + 1}`}>
                       <AccordionTrigger>{faq.q}</AccordionTrigger>
                       <AccordionContent>{faq.a}</AccordionContent>
                     </AccordionItem>
