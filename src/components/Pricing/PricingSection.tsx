@@ -87,7 +87,7 @@ const PricingSection = () => {
               <hr className='w-full my-4'></hr>
               <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
-                href='/'
+                href='https://chat.yourmunshi.net/login'
               >
                 Login/Signup
               </Link>
@@ -181,7 +181,7 @@ const PricingSection = () => {
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
                 href='/'
               >
-                Book a Call
+                Subscribe
               </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 Tailored for large firms and enterprises
@@ -222,7 +222,7 @@ const PricingSection = () => {
               <hr className='w-full my-4'></hr>
               <Link
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
-                href='/'
+                href='https://chat.yourmunshi.net/login'
               >
                 Login/Signup
               </Link>
@@ -323,7 +323,7 @@ const PricingSection = () => {
                 className='inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-white text-black'
                 href='/'
               >
-                Book a Call
+                Subscribe
               </Link>
               <p className='mt-6 text-xs leading-5 text-muted-foreground'>
                 Tailored for large firms and enterprises

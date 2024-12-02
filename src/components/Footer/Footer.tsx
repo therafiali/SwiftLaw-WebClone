@@ -15,12 +15,12 @@ const Footer = () => {
           </span>
           <ul className='flex justify-start md:justify-end text-sm tracking-tight text-foreground'>
             <li className='mr-3 md:mx-4'>
-              <a target='_blank' rel='noopener noreferrer' href='/privacy'>
+              <a target='_blank' rel='noopener noreferrer' href='https://chat.yourmunshi.net/policies/privacypolicy'>
                 Privacy Policy
               </a>
             </li>
             <li className='mr-3 md:mx-4'>
-              <a target='_blank' rel='noopener noreferrer' href='/terms'>
+              <a target='_blank' rel='noopener noreferrer' href='https://chat.yourmunshi.net/policies/termsofuse'>
                 Terms of Service
               </a>
             </li>

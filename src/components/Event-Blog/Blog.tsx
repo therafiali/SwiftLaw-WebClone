@@ -11,78 +11,67 @@ const Blog = () => {
   const blogData = [
     {
       id: 1,
-      title: 'AI and Client Relations: Transforming Legal Service Delivery',
+      title: 'How YourMunshi is Revolutionizing Research Efficiency with Legal AI',
       description:
-        "Exploring how AI is reshaping lawyer-client relationships and revolutionizing legal service delivery, with a focus on YourMunshi's innovative solutions.",
+        "Legal research is one of the most critical yet time-consuming aspects of the legal profession. With the complexities of Pakistani law and the ever-growing body of case law, legislation.",
       imageUrl: b1,
       imageAlt: 'AI and Client Relations: Transforming Legal Service Delivery',
-      link: '/blog/transforming_legal_service_delivery',
-      date: '2024-10-16'
+      link: 'https://www.linkedin.com/pulse/how-yourmunshi-revolutionizing-research-efficiency-legal-ezqwf/',
+      date: 'November 19, 2024'
     },
     {
       id: 2,
-      title: 'Is ChatGPT Really Safe for Law?',
+      title: 'The Transformative Power of AI in Legal Sector',
       description:
-        'Examining the safety concerns of using ChatGPT in legal practice and introducing YourMunshi as a secure AI alternative.',
+        'In our previous blog a general overview was discussed on how the Artificial Intelligence (AI) is significantly transforming industries by making tasks easier and more efficient. ',
       imageUrl: b2,
       imageAlt: 'Is ChatGPT Really Safe for Law?',
-      link: '/blog/is_chatgpt_safe_for_law',
-      date: '2024-10-12'
+      link: 'https://www.linkedin.com/pulse/transformative-power-ai-legal-sector-yourmunshipk-tagnf/?trackingId=GNbrRjCR%2BjLx8smLU7KA7g%3D%3D',
+      date: 'August 18, 2024'
     },
     {
       id: 3,
-      title: 'The Evolution of Legal Writing: From Quill to Quantum Leaps',
+      title: 'Unlocking the Potential of Saudi-Pakistan Tech Collaboration for Pakistani Startups',
       description:
-        'Exploring how AI is revolutionizing legal writing and what it means for modern lawyers.',
+        'From October 9 to 11, 2024, a top Saudi delegation, led by #Saudi Investment #Minister Khalid bin #Abdulaziz Al-Falih, visited #Pakistan to boost trade and #investment between the two countries.',
       imageUrl: b3,
       imageAlt: 'The Evolution of Legal Writing: From Quill to Quantum Leaps',
-      link: '/blog/evolution_of_legal_writing',
-      date: '2024-10-11'
+      link: 'https://www.linkedin.com/pulse/unlocking-potential-saudi-pakistan-tech-collaboration-pakistani-eojkf/?trackingId=jfOdLkAo83Cm0k7cf0DxJA%3D%3D',
+      date: 'October 21, 2024'
     },
     {
       id: 4,
-      title: 'Maximizing Firm Knowledge: Leveraging Precedents and Playbooks',
+      title: 'AI: Revolutionizing Industries, Shaping the Future',
       description:
-        'Exploring how law firms can effectively utilize precedents and playbooks to enhance efficiency, consistency, and knowledge management.',
+        'Artificial Intelligence (AI) is significantly transforming every industry. From performing complex medical procedures to assisting with document reading, AI’s presence is increasingly evident',
       imageUrl: b4,
       imageAlt:
         'Maximizing Firm Knowledge: Leveraging Precedents and Playbooks',
-      link: '/blog/maximizing_firm_knowledge',
-      date: '2024-10-11'
+      link: 'https://www.linkedin.com/pulse/ai-revolutionizing-industries-shaping-future-yourmunshipk-citsf/?trackingId=fHF4XUz0%2F1VrI4H6o4wz3w%3D%3D',
+      date: 'August 3, 2024'
     },
     {
       id: 5,
-      title: 'Redefining Legal Research: The AI-Driven Knowledge Revolution',
+      title: 'YourMunshi Architecture',
       description:
-        'Exploring how AI is transforming legal research methodologies and what it means for modern legal professionals.',
+        'There are a lot of manual and time-consuming tasks associated with Pakistan’s legal system. Our initiative aims to leverage generative AI to automate 40% of manual legal work.',
       imageUrl: b5,
       imageAlt: 'Redefining Legal Research: The AI-Driven Knowledge Revolution',
-      link: '/blog/redefining_legal_research_with_ai',
-      date: '2024-10-11'
+      link: 'https://www.linkedin.com/pulse/yourmunshi-architecture-yourmunshipk-v2c0e/?trackingId=Ng%2BlkRINWGOcvQJ3eUARpg%3D%3D',
+      date: 'July 27, 2024'
     },
     {
       id: 6,
       title:
-        'The Revolution of Contract Automation: Transforming Legal Practice',
+        `Meet YourMunshi - Pakistan's First AI Legal Assistant`,
       description:
-        'Exploring how contract automation is reshaping legal work, improving efficiency, and reducing risks in contract management.',
+        `Let's begin by defining an AI assistant. An AI Assistant is software powered by artificial intelligence (AI) that interacts with users through text in a human-like manner.`,
       imageUrl: b6,
       imageAlt:
         'The Revolution of Contract Automation: Transforming Legal Practice',
-      link: '/blog/revolution_of_contract_automation',
-      date: '2024-10-11'
+      link: 'https://www.linkedin.com/pulse/meet-yourmunshi-pakistans-first-ai-legal-assistant-yourmunshipk-naref/?trackingId=4dbbaehFUVWhApSmx87NHQ%3D%3D',
+      date: 'July 13, 2024'
     },
-    {
-      id: 7,
-      title: 'The Ethical Labyrinth: Navigating AI Implementation in Law Firms',
-      description:
-        'Exploring the ethical challenges and solutions for implementing AI in legal practice.',
-      imageUrl: b2,
-      imageAlt:
-        'The Ethical Labyrinth: Navigating AI Implementation in Law Firms',
-      link: '/blog/ethical_labyrinth_of_ai_in_law',
-      date: '2024-10-10'
-    }
   ]
 
   return (
