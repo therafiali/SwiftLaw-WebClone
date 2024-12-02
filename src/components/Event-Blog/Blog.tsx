@@ -86,7 +86,7 @@ const Blog = () => {
           </h3>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {blogData.map(post => (
-              <a key={post.id} className='block' href={post.link}>
+              <a target='_blank' key={post.id} className='block' href={post.link}>
                 <div className='bg-background rounded-lg p-4 mb-4 border hover:shadow-sm transition-shadow duration-200'>
                   <Image
                     alt={post.imageAlt}
