@@ -14,7 +14,7 @@ const HeroSection = () => {
   }
 
   return (
-    <section className=' '>
+    <section className=''>
       <div className='relative flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8 '>
         {/* <div className='flex justify-center items-center '>
           <Link
@@ -102,8 +102,8 @@ const HeroSection = () => {
                 </video>
               </div>
             )}
-          </div> */}
-        </div>
+          </div>
+                  </div>
         {/* {!isVideoPlaying && (
           <div className='pointer-events-none absolute inset-x-0 -bottom-12 h-1/3 bg-gradient-to-t from-background via-background to-transparent lg:h-1/4'></div>
         )} */}
