@@ -42,7 +42,7 @@ export default function NavbarApp () {
           {/* Button */}
           <NavbarContent justify='end'>
             <NavbarItem>
-              <MyButton button_text='Start Now' />
+              <MyButton button_text='Login/Signup' />
             </NavbarItem>
           </NavbarContent>
         </div>

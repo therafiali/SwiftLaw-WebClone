@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <section className=' '>
       <div className='relative flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8 '>
-        <div className='flex justify-center items-center '>
+        {/* <div className='flex justify-center items-center '>
           <Link
             href={''}
             style={{ opacity: 1, willChange: 'auto', transform: 'none' }}
@@ -31,7 +31,7 @@ const HeroSection = () => {
 
             <Foo />
           </Link>
-        </div>
+        </div> */}
         <div className='flex w-full max-w-2xl flex-col space-y-4 overflow-hidden pt-8 text-center mx-auto my-4'>
           <h1
             style={{
@@ -51,7 +51,7 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className='text-center mx-auto flex items-center justify-center my-8'>
-          <MyButton button_text='Try its Now' />
+          <MyButton button_text='Start Now' />
         </div>
         <div
           style={{
@@ -62,9 +62,9 @@ const HeroSection = () => {
           }}
           className='relative mx-auto flex w-full items-center justify-center'
         >
-          <div className='class="relative border rounded-lg shadow-lg max-w-screen-lg mt-16"'>
+          {/* <div className='class="relative border rounded-lg shadow-lg max-w-screen-lg mt-16"'>
             {/* If isVideoPlaying is false, show the image */}
-            {!isVideoPlaying && (
+            {/* {!isVideoPlaying && (
               <div className='relative cursor-pointer group rounded-md p-2 ring-1 ring-slate-200/50 dark:bg-gray-900/70 dark:ring-white/10 backdrop-blur-md'>
                 <img
                   src='https://www.tryswiftlaw.com/_next/image?url=%2Fdashboard.png&w=3840&q=75'
@@ -82,7 +82,7 @@ const HeroSection = () => {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
 
             {/* If isVideoPlaying is true, show the video */}
             {isVideoPlaying && (
@@ -90,7 +90,7 @@ const HeroSection = () => {
                 <video
                   width='100%'
                   height='auto'
-                  controls
+                  // controls
                   autoPlay
                   className='rounded-lg shadow-lg'
                 >
@@ -102,11 +102,11 @@ const HeroSection = () => {
                 </video>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
-        {!isVideoPlaying && (
+        {/* {!isVideoPlaying && (
           <div className='pointer-events-none absolute inset-x-0 -bottom-12 h-1/3 bg-gradient-to-t from-background via-background to-transparent lg:h-1/4'></div>
-        )}
+        )} */}
       </div>
     </section>
   )
