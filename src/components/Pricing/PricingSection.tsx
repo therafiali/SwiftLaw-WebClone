@@ -4,18 +4,18 @@ import { Right } from "../Hero/HeroSvg";
 import Link from "next/link";
 
 
-const BasicLink = [
-  {montly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'},
-  {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'}
-]
-const StandardLink = [
-  {montly : 'https://dev.mabdulm.com/login?subscription=monthly_standard'},
-  {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_standard'}
-]
-const PremiumLink = [
-  {montly : 'https://dev.mabdulm.com/login?subscription=monthly_professional'},
-  {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_professional'}
-]
+// const BasicLink = [
+//   {montly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'},
+//   {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'}
+// ]
+// const StandardLink = [
+//   {montly : 'https://dev.mabdulm.com/login?subscription=monthly_standard'},
+//   {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_standard'}
+// ]
+// const PremiumLink = [
+//   {montly : 'https://dev.mabdulm.com/login?subscription=monthly_professional'},
+//   {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_professional'}
+// ]
 
 const BasicPlan = [
   { text: "10 Questions per day" },
