@@ -33,7 +33,7 @@ const Blog = () => {
       id: 3,
       title: 'Unlocking the Potential of Saudi-Pakistan Tech Collaboration for Pakistani Startups',
       description:
-        'From October 9 to 11, 2024, a top Saudi delegation, led by #Saudi Investment #Minister Khalid bin #Abdulaziz Al-Falih, visited #Pakistan to boost trade and #investment between the two countries.',
+        'A major focus of the discussions was the IT industry, where both countries see big growth potential. Joint efforts in areas like digital transformation, cybersecurity, and software development were highlighted.',
       imageUrl: b3,
       imageAlt: 'The Evolution of Legal Writing: From Quill to Quantum Leaps',
       link: 'https://www.linkedin.com/pulse/unlocking-potential-saudi-pakistan-tech-collaboration-pakistani-eojkf/?trackingId=jfOdLkAo83Cm0k7cf0DxJA%3D%3D',

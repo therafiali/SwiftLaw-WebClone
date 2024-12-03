@@ -15,7 +15,7 @@ export default function NavbarApp () {
       <Navbar
         className='
         fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-8 py-4 
-        backdrop-blur-md bg-white/30 border border-white/40 '
+        backdrop-blur-md bg-white/30 border border-white/40 2xl:max-w-screen-2xl mx-auto'
         isBordered
       >
         {/* Logo */}
@@ -42,7 +42,7 @@ export default function NavbarApp () {
           {/* Button */}
           <NavbarContent justify='end'>
             <NavbarItem>
-              <MyButton button_text='Login/Signup' />
+              <MyButton button_text='Login / Signup' />
             </NavbarItem>
           </NavbarContent>
         </div>

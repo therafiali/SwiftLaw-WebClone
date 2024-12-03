@@ -1,35 +1,8 @@
+import Blog from '@/components/Event-Blog/Blog'
 import React from 'react'
 
 const page = () => {
-  return (
-      <div>Blog Page
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-          <p>hello</p>
-    </div>
-  )
+  return <Blog />
 }
 
 export default page
