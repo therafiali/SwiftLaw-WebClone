@@ -1,35 +1,29 @@
-import React from 'react'
-
-interface PageProps {
-  params: {
-    slug: string
-  }
-}
-
-const Page: React.FC<PageProps> = ({ params }) => {
+export default function BlogDetail ({ params }: { params: { slug: string } }) {
   return (
-    <div>
-      {params.slug}
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-      <p>{params.slug}</p>
-    </div>
+    <>
+      <p>hello</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+      <p>hello{params.slug}</p>
+    </>
   )
 }
-
-export default Page
