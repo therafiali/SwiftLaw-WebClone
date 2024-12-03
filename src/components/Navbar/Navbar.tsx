@@ -34,7 +34,7 @@ export default function NavbarApp () {
               </Link>
             </NavbarItem>
             <NavbarItem isActive>
-              <Link href='#' aria-current='page'>
+              <Link href='/blog' aria-current='page'>
                 Blog
               </Link>
             </NavbarItem>
