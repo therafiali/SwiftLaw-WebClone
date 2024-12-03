@@ -1,29 +1,8 @@
-export default function BlogDetail ({ params }: { params: { slug: string } }) {
-  return (
-    <>
-      <p>hello</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-      <p>hello{params.slug}</p>
-    </>
-  )
+export default async function Page ({
+  params
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const slug = (await params).slug
+  return <div>My Post: {slug}</div>
 }
