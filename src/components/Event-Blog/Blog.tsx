@@ -11,9 +11,10 @@ const Blog = () => {
   const blogData = [
     {
       id: 1,
-      title: 'How YourMunshi is Revolutionizing Research Efficiency with Legal AI',
+      title:
+        'How YourMunshi is Revolutionizing Research Efficiency with Legal AI',
       description:
-        "Legal research is one of the most critical yet time-consuming aspects of the legal profession. With the complexities of Pakistani law and the ever-growing body of case law, legislation.",
+        'Legal research is one of the most critical yet time-consuming aspects of the legal profession. With the complexities of Pakistani law and the ever-growing body of case law, legislation.',
       imageUrl: b1,
       imageAlt: 'AI and Client Relations: Transforming Legal Service Delivery',
       link: 'https://www.linkedin.com/pulse/how-yourmunshi-revolutionizing-research-efficiency-legal-ezqwf/',
@@ -31,7 +32,8 @@ const Blog = () => {
     },
     {
       id: 3,
-      title: 'Unlocking the Potential of Saudi-Pakistan Tech Collaboration for Pakistani Startups',
+      title:
+        'Unlocking the Potential of Saudi-Pakistan Tech Collaboration for Pakistani Startups',
       description:
         'A major focus of the discussions was the IT industry, where both countries see big growth potential. Joint efforts in areas like digital transformation, cybersecurity, and software development were highlighted.',
       imageUrl: b3,
@@ -62,16 +64,14 @@ const Blog = () => {
     },
     {
       id: 6,
-      title:
-        `Meet YourMunshi - Pakistan's First AI Legal Assistant`,
-      description:
-        `Let's begin by defining an AI assistant. An AI Assistant is software powered by artificial intelligence (AI) that interacts with users through text in a human-like manner.`,
+      title: `Meet YourMunshi - Pakistan's First AI Legal Assistant`,
+      description: `Let's begin by defining an AI assistant. An AI Assistant is software powered by artificial intelligence (AI) that interacts with users through text in a human-like manner.`,
       imageUrl: b6,
       imageAlt:
         'The Revolution of Contract Automation: Transforming Legal Practice',
       link: 'https://www.linkedin.com/pulse/meet-yourmunshi-pakistans-first-ai-legal-assistant-yourmunshipk-naref/?trackingId=4dbbaehFUVWhApSmx87NHQ%3D%3D',
       date: 'July 13, 2024'
-    },
+    }
   ]
 
   return (
@@ -86,7 +86,12 @@ const Blog = () => {
           </h3>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {blogData.map(post => (
-              <a target='_blank' key={post.id} className='block' href={post.link}>
+              <a
+                target='_blank'
+                key={post.id}
+                className='block'
+                href={post.link}
+              >
                 <div className='bg-background rounded-lg p-4 mb-4 border hover:shadow-sm transition-shadow duration-200'>
                   <Image
                     alt={post.imageAlt}
