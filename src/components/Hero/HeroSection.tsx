@@ -2,12 +2,14 @@
 import React from "react";
 
 import MyButton from "../shared/MyButton";
+import { TextGenerateEffect } from "../ui/TextEffect";
 
 const HeroSection = () => {
+  const h1 = `YourMunshi Pakistan's First AI Legal Assistant`
   return (
     <section className="">
       <div className="relative flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8 ">
-        <div className="flex w-full max-w-2xl flex-col space-y-4 overflow-hidden pt-8 text-center mx-auto my-4">
+        <div className="flex w-full max-w-2xl flex-col space-y-4 overflow-hidden  text-center mx-auto my-4">
           <h1
             style={{
               filter: "blur(0px)",
@@ -15,13 +17,15 @@ const HeroSection = () => {
               willChange: "auto",
               transform: "none",
             }}
-            className="text-center text-4xl font-medium leading-tight text-foreground sm:text-5xl md:text-6xl"
+            className="text-center text-4xl font-medium leading-tight text-foreground sm:text-5xl md:text-6xl my-4"
           >
             <span
               style={{ opacity: 1, willChange: "auto", transform: "none" }}
               className="inline-block px-1 md:px-2 text-balance font-semibold"
             >
-              YourMunshi Pakistan&apos;s First AI Legal Assistant
+              <TextGenerateEffect
+                words={h1}
+              />
             </span>
           </h1>
         </div>

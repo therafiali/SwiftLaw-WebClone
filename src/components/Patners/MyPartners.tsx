@@ -12,67 +12,51 @@ const MyPartners = () => {
         </h3>
         <div className="relative mt-6">
           <div className="group flex mx-auto items-center justify-center overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row max-w-full [--duration:40s]">
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
+            <div>
               <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
+                className=" w-24 mx-4"
                 src={commingSoon}
                 alt="mufti"
-                width={1000}
-                height={1000}
+                width={2000}
+                height={2000}
               />
             </div>
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
+            <div>
               <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
+                className="w-24 mx-4"
                 src={commingSoon}
                 alt="mufti"
-                width={1000}
-                height={1000}
+                width={2000}
+                height={2000}
               />
             </div>
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
+
+            <div className="">
               <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
-                src={commingSoon}
-                alt="mufti"
-                width={1000}
-                height={1000}
-              />
-            </div>
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
-              <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
+                className="w-24 mx-4"
                 src={mufti}
                 alt="mufti"
-                width={1000}
-                height={1000}
+                width={2000}
+                height={2000}
               />
             </div>
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
+
+            <div>
               <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
+                className="w-24 mx-4"
                 src={commingSoon}
                 alt="mufti"
-                width={1000}
-                height={1000}
+                width={2000}
+                height={2000}
               />
             </div>
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
+            <div>
               <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
+                className="w-24 mx-4"
                 src={commingSoon}
                 alt="mufti"
-                width={1000}
-                height={1000}
-              />
-            </div>
-            <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row">
-              <Image
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 mx-4"
-                src={commingSoon}
-                alt="mufti"
-                width={1000}
-                height={1000}
+                width={2000}
+                height={2000}
               />
             </div>
           </div>
