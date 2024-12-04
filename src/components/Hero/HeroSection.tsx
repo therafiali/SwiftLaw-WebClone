@@ -39,12 +39,12 @@ const HeroSection = () => {
         >
           <div className="relative ">
             <video
-              width="60%"
+              width="auto"
               height="auto"
               autoPlay
               muted // Add muted for autoplay to work in modern browsers
               loop // Optionally add loop if you want the video to repeat
-              className="rounded-lg shadow-lg mx-auto"
+              className="rounded-lg shadow-lg mx-auto sm:w-3/4"
             >
               <source
                 src="video.mp4" // Replace with actual video URL
