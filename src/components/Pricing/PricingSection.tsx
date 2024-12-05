@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Right } from "../Hero/HeroSvg";
 import Link from "next/link";
 
+
+
 // const BasicLink = [
 //   {montly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'},
 //   {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'}
@@ -45,7 +47,6 @@ const PricingSection = () => {
 
   const handleToggleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setIsChecked(event.target.checked); // Update state based on the checkbox status
-   
   };
 
   return (
@@ -142,10 +143,10 @@ const PricingSection = () => {
               <p className="mt-6 flex items-center justify-center gap-x-2">
                 <p className="line-through  ">{isChecked ? "18,000" : ""}</p>
                 <span className="text-5xl font-bold tracking-tight text-foreground">
-                  {isChecked ? "16,200" : "1500"}
+                  {isChecked ? "16,200" : "1500"} PKR
                 </span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
-                  {isChecked ? " / seat / Year" : " PKR / seat / month"}
+                  {isChecked ? " / seat / Year" : "  / seat / month"}
                 </span>
               </p>
               <p className="text-xs leading-5 text-muted-foreground">
@@ -179,10 +180,10 @@ const PricingSection = () => {
               <p className="mt-6 flex items-center justify-center gap-x-2">
                 <p className="line-through  ">{isChecked ? "30,000" : ""}</p>
                 <span className="text-5xl font-bold tracking-tight text-foreground">
-                  {isChecked ? "27,000" : "2500"}
+                  {isChecked ? "27,000" : "2500"} PKR
                 </span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
-                  {isChecked ? " / seat / Year" : " PKR / seat / month"}
+                  {isChecked ? " / seat / Year" : "  / seat / month"}
                 </span>
               </p>
               <p className="text-xs leading-5 text-muted-foreground">
@@ -285,10 +286,13 @@ const PricingSection = () => {
               <p className="mt-6 flex flex-col items-center justify-center gap-x-2">
                 <p className="line-through  ">{isChecked ? "18,000" : ""}</p>
                 <span className="text-5xl font-bold tracking-tight text-foreground">
-                  {isChecked ? "16,200" : "1500"}
+                  {isChecked ? "16,200" : "1500"}{" "}
+                  <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
+                    PKR
+                  </span>
                 </span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
-                  {isChecked ? " / seat / Year" : " PKR / seat / month"}
+                  {isChecked ? " / seat / Year" : "  / seat / month"}
                 </span>
               </p>
               <p className="text-xs leading-5 text-muted-foreground">
@@ -329,10 +333,13 @@ const PricingSection = () => {
               <p className="mt-6 flex flex-col items-center justify-center gap-x-2">
                 <p className="line-through  ">{isChecked ? "30,000" : ""}</p>
                 <span className="text-5xl font-bold tracking-tight text-foreground">
-                  {isChecked ? "27,000" : "2500"}
+                  {isChecked ? "27,000 " : "2500 "}
+                  <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
+                    {" "}RS
+                  </span>
                 </span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
-                  {isChecked ? " / seat / Year" : " PKR / seat / month"}
+                  {isChecked ? " / seat / Year" : "  / seat / month"}
                 </span>
               </p>
               <p className="text-xs leading-5 text-muted-foreground">
