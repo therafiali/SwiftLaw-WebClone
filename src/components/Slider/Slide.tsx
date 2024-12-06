@@ -2,13 +2,12 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import 'swiper/css/pagination'
 import { testimonialData } from '@/app/data/testimonial'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
-// Import Autoplay module from Swiper
 import { Autoplay } from 'swiper/modules'
 
-// Add Autoplay to the Swiper modules
+
+
 export default function Slide () {
   return (
     <>

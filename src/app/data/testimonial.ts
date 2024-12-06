@@ -1,6 +1,6 @@
 import p1 from '@/assets/testimonials/Picture1.jpg'
 import p2 from '@/assets/testimonials/Picture2.jpg'
-import p3 from '@/assets/testimonials/Picture3.jpg'
+import p3 from '@/assets/testimonials/p7.jpeg'
 import p4 from '@/assets/testimonials/Picture4.jpg'
 import p5 from '@/assets/testimonials/Picture5.jpg'
 import p6 from '@/assets/testimonials/Picture6.jpg'
