@@ -3,43 +3,72 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import { Pagination } from 'swiper/modules'
+import { testimonialData } from '@/app/data/testimonial'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+// Import Autoplay module from Swiper
+import { Autoplay } from 'swiper/modules'
 
+// Add Autoplay to the Swiper modules
 export default function Slide () {
   return (
     <>
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        pagination={{
-          clickable: true
+        className='mySwiper mx-8'
+        // Configure autoplay
+        autoplay={{
+          delay: 3000, // Time in milliseconds between each slide change (3 seconds)
+          disableOnInteraction: false // Allow autoplay to continue even if user interacts with the slider
         }}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          768: {
-            slidesPerView: 4,
-            spaceBetween: 40
-          },
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 50
-          }
-        }}
-        modules={[Pagination]}
-        className='mySwiper'
+        modules={[Autoplay]} // Include Autoplay module
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {testimonialData.map((testimonial, index) => (
+          <SwiperSlide key={index}>
+            <div
+              key={index}
+              className='min-w-0 shrink-0 grow-0 basis-full pl-4'
+            >
+              <div className='p-2 pb-5'>
+                <div className='text-center'>
+                  <div
+                    style={{
+                      opacity: 1,
+                      filter: 'blur(0px)',
+                      willChange: 'auto',
+                      transform: 'translateY(-6px)'
+                    }}
+                    className='my-8'
+                  >
+                    <blockquote className='h3 relative text-xl'>
+                      <span className='md:absolute -left-2 text-2xl md:top-0 md:block '>
+                        “
+                      </span>
+                      {testimonial.feedback}
+                      <span className='md:absolute text-2xl -right-2 md:bottom-0 md:block'>
+                        ”
+                      </span>
+                    </blockquote>
+                  </div>
+                  <div className='mt-8 max-w-md mx-auto'>
+                    <figcaption>
+                      <div className='universal-text-2 font-semibold flex items-center justify-center space-x-4 my-4'>
+                        <Avatar>
+                          <AvatarImage src={testimonial.image.src} />
+                          <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
+                        </Avatar>
+                        <p>{testimonial.name}</p>
+                      </div>
+                      <div className='universal-text-2 font-normal text-gray-900'>
+                        {testimonial.title}
+                      </div>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   )
