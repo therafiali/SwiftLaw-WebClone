@@ -10,7 +10,7 @@ export const testimonialData = [
     id: 1,
     image: p1,
         name: 'Syed SabeeulHassan Kazmi',
-    title: ` adv high court former civil judge Islamabad` ,
+    title: ` Adv High court former civil judge Islamabad` ,
     feedback:
       'With the advent of artificial intelligence, one wonders, if we can rely on any such assistance. Yess! Your munshi is a wonderful innovation which helps you in drafting,  quick over view of lengthy documents, research and many more. In busy professional life  it is a saviour in helping you out. Highly recommended!'
   },
@@ -24,7 +24,7 @@ export const testimonialData = [
   {
     id: 3,
       image: p3,
-    title: `Barrister at Law |Advocate Supreme Court |Member Islamabad Bar Council`,
+    title: `Barrister at Law | Advocate Supreme Court | Member Islamabad Bar Council`,
     name: `Syed Qamar Hussain Sabzwari  `,
     feedback: `As the world is awakening to the transformative technology of AI, it is essential for the legal fraternity to also educate and equip themselves with this new phenomenon. yourmunshi.net is an essential tool to be held by the lawyers of the present and the future.
 `
@@ -49,7 +49,7 @@ The platform’s intuitive interface ensures accessibility for both professional
   {
     id: 6,
       image: p6,
-    title:`Advocate Supreme Court of Pakistan  |Former general secretary Islamabad high court`,
+    title:`Advocate Supreme Court of Pakistan | Former general secretary Islamabad high court`,
     name: 'Junaid Akhtar Chohan ',
     feedback: `In a changing world ,such an app is the requirement of today .Whenever any one needs a legal help in daily routine ,he is usually misguided  by the legal quacks and becomes confused .Resultantly ,people face losses of money and time .Therefore,this app may help them initially to be guided properly.`
   }

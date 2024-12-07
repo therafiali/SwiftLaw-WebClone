@@ -53,12 +53,12 @@ export default function Slide () {
                     <figcaption>
                       <div className='universal-text-2 font-semibold flex items-center justify-center space-x-4 my-4'>
                         <Avatar>
-                          <AvatarImage src={testimonial.image.src} />
+                          <AvatarImage className='' src={testimonial.image.src} />
                           <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
                         </Avatar>
                         <p>{testimonial.name}</p>
                       </div>
-                      <div className='universal-text-2 font-normal text-gray-900'>
+                      <div className='universal-text-2 font-normal text-gray-900 capitalize'>
                         {testimonial.title}
                       </div>
                     </figcaption>
