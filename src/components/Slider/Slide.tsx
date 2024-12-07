@@ -14,7 +14,7 @@ export default function Slide () {
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        className='mySwiper mx-8'
+        className=' mx-8 '
         // Configure autoplay
         autoplay={{
           delay: 3000, // Time in milliseconds between each slide change (3 seconds)
@@ -26,20 +26,15 @@ export default function Slide () {
           <SwiperSlide key={index}>
             <div
               key={index}
-              className='min-w-0 shrink-0 grow-0 basis-full pl-4'
+              className='min-w-0 shrink-0 grow-0 basis-full pl-4 '
             >
-              <div className='p-2 pb-5'>
+              <div className='p-2 pb-5 '>
                 <div className='text-center'>
                   <div
-                    style={{
-                      opacity: 1,
-                      filter: 'blur(0px)',
-                      willChange: 'auto',
-                      transform: 'translateY(-6px)'
-                    }}
+                   
                     className='my-8'
                   >
-                    <blockquote className='h3 relative text-xl'>
+                    <blockquote className='h3 relative text-sm sm:text-xl'>
                       <span className='md:absolute -left-2 text-2xl md:top-0 md:block '>
                         “
                       </span>
@@ -56,9 +51,9 @@ export default function Slide () {
                           <AvatarImage className='' src={testimonial.image.src} />
                           <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
                         </Avatar>
-                        <p>{testimonial.name}</p>
+                        <p className='text-sm sm:text-lg'>{testimonial.name}</p>
                       </div>
-                      <div className='universal-text-2 font-normal text-gray-900 capitalize'>
+                      <div className='universal-text-2 font-normal text-gray-900 capitalize text-sm sm:text-lg'>
                         {testimonial.title}
                       </div>
                     </figcaption>

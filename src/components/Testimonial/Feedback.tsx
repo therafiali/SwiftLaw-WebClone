@@ -14,20 +14,18 @@ const Feedback = () => {
           </h3>
         </div>
         <div className='relative'>
-          <div className='max-w-3xl mx-auto relative px-8'>
+          <div className=' lg:max-w-3xl mx-auto relative px-8'>
             <div className='overflow-hidden'>
               <div
-                style={{
-                  transform: 'translate3d(0px, 0px, 0px)'
-                }}
-                className=' gap-8 -ml-4'
+               
+                className='  '
               >
                 <Slide />
               </div>
             </div>
           </div>
-           <div className="pointer-events-none absolute inset-y-0 left-0 h-full w-1/3 bg-gradient-to-r from-background"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 h-full w-1/3 bg-gradient-to-l from-background"></div>
+          <div className='hidden sm:flex pointer-events-none absolute inset-y-0 left-0 h-full w-1/3 bg-gradient-to-r from-background'></div>
+          <div className='hidden sm:flex pointer-events-none absolute inset-y-0 right-0 h-full w-1/3 bg-gradient-to-l from-background'></div>
         </div>
       </div>
     </div>
