@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Right } from "../Hero/HeroSvg";
 import Link from "next/link";
+import { X } from "lucide-react";
 
 
 
@@ -19,28 +20,38 @@ const PremiumLink = [
 ];
 
 const BasicPlan = [
-  { text: "10 Questions per day" },
-  { text: "Feedback Option" },
-  { text: "Email Support" },
+  { text: "Case law research (Limited queries)", value: true },
+  { text: "Citation & summaries (Limited Queries)", value: true },
+  { text: "Legal Drafting (No downloading)", value: true },
+  { text: "Judgement copy downloads", value: false },
+  { text: "Case lead forwarding", value: false },
+  { text: "Support", value: false },
+  { text: "Access to LegalERP", value: false },
+  { text: "YM Club Membership", value: false },
 ];
 
 const StandardPlan = [
-  { text: "30 Questions per day" },
-  { text: "Feedback Option" },
-  { text: "Email Support" },
-  { text: "Chat Support" },
-  { text: "Upload Documents" },
+  { text: "Case Law research", value: true },
+  { text: "Citations & summaries", value: true },
+  { text: "Limited legal drafting", value: true },
+  { text: "Limited judgement copies", value: true },
+  { text: "Email support", value: true },
+  { text: "Case lead forwarding", value: false },
+  { text: "Access to LegalERP", value: false },
+  { text: "YM Club Membership", value: false },
 ];
 
-const PrimiumPlan = [
-  { text: "Unlimited  Questions" },
-
-  { text: "Feedback Option" },
-  { text: "Email Support" },
-  { text: "Chat Support" },
-  { text: "Upload Documents" },
-  { text: "Access New Features" },
+const PremiumPlan = [
+  { text: "Unlimited Case law research", value: true },
+  { text: "Unlimited citations & copies", value: true },
+  { text: "Unlimited legal drafting", value: true },
+  { text: "Judgement copy downloads", value: true },
+  { text: "Case lead forwarding", value: true },
+  { text: "In-person support", value: true },
+  { text: "Discounted rates for LegalERP", value: true },
+  { text: "Exclusive YM club membership", value: true },
 ];
+
 
 const PricingSection = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -98,7 +109,8 @@ const PricingSection = () => {
               <ul className="mt-5 gap-2 flex flex-col">
                 {BasicPlan.map((feature, index) => (
                   <li key={index} className="flex items-center">
-                    <Right />
+                     {feature.value ? <Right /> : <X /> }
+                   
                     <span>{feature.text}</span>
                   </li>
                 ))}
@@ -155,7 +167,7 @@ const PricingSection = () => {
               <ul className="mt-5 gap-2 flex flex-col">
                 {StandardPlan.map((feature, index) => (
                   <li key={index} className="flex items-center">
-                    <Right />
+                     {feature.value ?   <Right /> : <X /> }
                     <span>{feature.text}</span>
                   </li>
                 ))}
@@ -190,9 +202,9 @@ const PricingSection = () => {
                 {isChecked ? "billed yearly" : "billed monthly"}
               </p>
               <ul className="mt-5 gap-2 flex flex-col">
-                {PrimiumPlan.map((feature, index) => (
+                {PremiumPlan.map((feature, index) => (
                   <li key={index} className="flex items-center">
-                    <Right />
+                  {feature.value ?   <Right /> : <X /> }
                     <span>{feature.text}</span>
                   </li>
                 ))}
@@ -241,7 +253,7 @@ const PricingSection = () => {
               <ul className="mt-5 gap-2 flex flex-col">
                 {BasicPlan.map((feature, index) => (
                   <li key={index} className="flex items-center">
-                    <Right />
+                  {feature.value ?   <Right  /> : <X className="font-thin" /> }
                     <span>{feature.text}</span>
                   </li>
                 ))}
@@ -301,7 +313,7 @@ const PricingSection = () => {
               <ul className="mt-5 gap-2 flex flex-col">
                 {StandardPlan.map((feature, index) => (
                   <li key={index} className="flex items-center">
-                    <Right />
+                  {feature.value ?   <Right /> : <X /> }
                     <span>{feature.text}</span>
                   </li>
                 ))}
@@ -346,9 +358,9 @@ const PricingSection = () => {
                 {isChecked ? "billed yearly" : "billed monthly"}
               </p>
               <ul className="mt-5 gap-2 flex flex-col">
-                {PrimiumPlan.map((feature, index) => (
+                {PremiumPlan.map((feature, index) => (
                   <li key={index} className="flex items-center">
-                    <Right />
+                  {feature.value ?   <Right /> : <X /> }
                     <span>{feature.text}</span>
                   </li>
                 ))}

@@ -46,7 +46,7 @@ export default function NavbarApp () {
             justify='end'
           >
             <NavbarItem>
-              <Link color='foreground' href='#'>
+              <Link color='foreground' href='https://payments.yourmunshi.net/'>
                 Pricing
               </Link>
             </NavbarItem>

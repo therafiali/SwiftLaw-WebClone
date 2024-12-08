@@ -8,8 +8,8 @@ const MyPartners = () => {
   return (
     <section className="">
       <div className=" container mx-auto px-4 py-16 max-w-7xl">
-        <h3 className="text-center text-sm font-semibold text-gray-500 ">
-          TRUSTED BY FIRMS ACROSS THE WORLD
+        <h3 className="text-center text-sm font-semibold text-gray-500 uppercase ">
+          TRUSTED BY OUR PARTNERS LAW FIRMS
         </h3>
         <div className="relative mt-6">
           <div className="group flex mx-auto items-center justify-center overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row max-w-full [--duration:40s]">
