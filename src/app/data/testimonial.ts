@@ -6,6 +6,14 @@ import p5 from '@/assets/testimonials/Picture5.jpg'
 import p6 from '@/assets/testimonials/Picture6.jpg'
 
 export const testimonialData = [
+ 
+  {
+    id: 2,
+      image: p2,
+    title: `High Court | Qalb-e-Hassan Law Associates`,
+    name: 'Jawad Hassan Kazmi Adv. ',
+    feedback: `I generally appreciate Al, and YourMunshi is an exceptional app with a distinct Pakistani touch. It's a game-changer for lawyers at every level, from students to law teachers. Kudos to the YourMunshi team for this remarkable effort`
+  },
   {
     id: 1,
     image: p1,
@@ -13,13 +21,6 @@ export const testimonialData = [
     title: ` Adv High court former civil judge Islamabad` ,
     feedback:
       'With the advent of artificial intelligence, one wonders, if we can rely on any such assistance. Yess! Your munshi is a wonderful innovation which helps you in drafting,  quick over view of lengthy documents, research and many more. In busy professional life  it is a saviour in helping you out. Highly recommended!'
-  },
-  {
-    id: 2,
-      image: p2,
-    title: `High Court | Qalb-e-Hassan Law Associates`,
-    name: 'Jawad Hassan Kazmi Adv. ',
-    feedback: `I generally appreciate Al, and YourMunshi is an exceptional app with a distinct Pakistani touch. It's a game-changer for lawyers at every level, from students to law teachers. Kudos to the YourMunshi team for this remarkable effort`
   },
   {
     id: 3,
