@@ -14,8 +14,8 @@ import Link from "next/link";
 //   {yearly : 'https://dev.mabdulm.com/login?subscription=monthly_standard'}
 // ]
 const PremiumLink = [
-  { montly: "https://dev.mabdulm.com/login?subscription=monthly_professional" },
-  { yearly: "https://dev.mabdulm.com/login?subscription=monthly_professional" },
+  { montly: "https://payments.yourmunshi.net/?add-to-cart=138" },
+  { yearly: "https://payments.yourmunshi.net/?add-to-cart=138" },
 ];
 
 const BasicPlan = [
@@ -163,7 +163,7 @@ const PricingSection = () => {
               <hr className="w-full my-4" />
               <Link
                 className="inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-primary text-white"
-                href="https://payments.yourmunshi.net/?product=standard-package"
+                href="https://payments.yourmunshi.net/?add-to-cart=136"
               >
                 Subscribe
               </Link>
@@ -203,7 +203,7 @@ const PricingSection = () => {
                 href={
                   isChecked
                     ? PremiumLink[0].yearly ??
-                      "https://dev.mabdulm.com/login?subscription=yearly_professional"
+                      "https://payments.yourmunshi.net/?add-to-cart=138"
                     : PremiumLink[0].montly ?? ""
                 }
               >
@@ -309,7 +309,7 @@ const PricingSection = () => {
               <hr className="w-full my-4" />
               <Link
                 className="inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input h-10 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-1 hover:bg-primary hover:text-white bg-primary text-white"
-                href="https://payments.yourmunshi.net/?product=standard-package"
+                href="https://payments.yourmunshi.net/?add-to-cart=136"
               >
                 Subscribe
               </Link>
@@ -359,7 +359,7 @@ const PricingSection = () => {
                 href={
                   isChecked
                     ? PremiumLink[0].yearly ??
-                      "https://dev.mabdulm.com/login?subscription=yearly_professional"
+                      "https://payments.yourmunshi.net/?add-to-cart=138"
                     : PremiumLink[0].montly ?? ""
                 }
               >

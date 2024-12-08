@@ -1,6 +1,7 @@
 import React from "react";
 import mufti from "@/assets/Patners/mufti (1).png";
 import commingSoon from "@/assets/Patners/comingsoon.png";
+import khatans from "@/assets/Patners/p1.png";
 import Image from "next/image";
 
 const MyPartners = () => {
@@ -41,6 +42,15 @@ const MyPartners = () => {
               />
             </div>
 
+            <div>
+              <Image
+                className="w-24 mx-4"
+                src={khatans}
+                alt="mufti"
+                width={2000}
+                height={2000}
+              />
+            </div>
             <div>
               <Image
                 className="w-24 mx-4"

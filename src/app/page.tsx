@@ -7,7 +7,6 @@ import Video from '@/components/Hero/Video'
 import MyFeatures from '@/components/KeyFeatures/MyFeatures'
 import MyPartners from '@/components/Patners/MyPartners'
 import PricingSection from '@/components/Pricing/PricingSection'
-// import Slide from '@/components/Slider/Slide'
 import Feedback from '@/components/Testimonial/Feedback'
 
 export default function Home () {
@@ -21,7 +20,6 @@ export default function Home () {
       <PricingSection />
       <Faq />
       <Blog />
-      {/* <Slide/> */}
       <Newsletter />
       <Footer />
 
