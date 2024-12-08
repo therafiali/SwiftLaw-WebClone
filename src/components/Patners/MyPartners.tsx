@@ -6,7 +6,7 @@ import Image from "next/image";
 const MyPartners = () => {
   return (
     <section className="">
-      <div className="container mx-auto px-4 md:px-8 py-12">
+      <div className=" container mx-auto px-4 py-16 max-w-7xl">
         <h3 className="text-center text-sm font-semibold text-gray-500 ">
           TRUSTED BY FIRMS ACROSS THE WORLD
         </h3>
@@ -14,7 +14,7 @@ const MyPartners = () => {
           <div className="group flex mx-auto items-center justify-center overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row max-w-full [--duration:40s]">
             <div>
               <Image
-                className=" w-24 mx-4"
+                className=" w-28 h-24"
                 src={commingSoon}
                 alt="mufti"
                 width={2000}
