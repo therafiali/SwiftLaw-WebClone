@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section className="">
       <div className="relative h-screen flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8 ">
-        <div className="absolute left-0 -top-56">
+        <div className="absolute left-0 top-3 sm:-top-56">
           <Image src={pak} alt="" />
         </div>
 
