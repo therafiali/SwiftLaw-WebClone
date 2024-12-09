@@ -9,7 +9,7 @@ const Video = () => {
         willChange: "auto",
         transform: "none",
       }}
-      className="relative mx-auto flex w-full items-center justify-center"
+      className="relative mx-auto flex w-full items-center justify-center px-4"
     >
       <div className="relative ">
         <video
@@ -18,7 +18,7 @@ const Video = () => {
           autoPlay
           muted // Add muted for autoplay to work in modern browsers
           loop // Optionally add loop if you want the video to repeat
-          className="rounded-lg shadow-lg mx-auto sm:w-3/4"
+          className="rounded-lg shadow-lg mx-auto lg:w-3/4"
         >
           <source
             src="video.mp4" // Replace with actual video URL
