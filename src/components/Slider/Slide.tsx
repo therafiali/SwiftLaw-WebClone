@@ -17,7 +17,7 @@ export default function Slide () {
         className=' mx-8 '
         // Configure autoplay
         autoplay={{
-          delay: 3000, // Time in milliseconds between each slide change (3 seconds)
+          delay: 10000, // Time in milliseconds between each slide change (3 seconds)
           disableOnInteraction: false // Allow autoplay to continue even if user interacts with the slider
         }}
         modules={[Autoplay]} // Include Autoplay module
