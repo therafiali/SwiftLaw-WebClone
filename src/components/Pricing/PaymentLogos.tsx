@@ -9,7 +9,7 @@ import master from '@/assets/payment/master.svg'
 
 const PaymentLogos = () => {
   return (
-    <div className='flex justify-center items-center space-x-8 my-8 aspect-auto object-contain '>
+    <div className='flex justify-center items-center space-x-4 sm:space-x-8 my-8 aspect-auto object-contain '>
       <div>
         <Image src={Easypaisa} alt='Payment' className='' width={80} height={80} />
       </div>
