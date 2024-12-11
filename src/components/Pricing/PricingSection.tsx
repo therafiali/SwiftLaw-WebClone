@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Right } from '../Hero/HeroSvg'
 import Link from 'next/link'
 import { X } from 'lucide-react'
+import PaymentLogos from './PaymentLogos'
 
 // const BasicLink = [
 //   {montly : 'https://dev.mabdulm.com/login?subscription=monthly_basic'},
@@ -398,6 +399,7 @@ const PricingSection = () => {
             </div>
           </div>
         </div>
+        <PaymentLogos/>
       </div>
     </div>
   )
