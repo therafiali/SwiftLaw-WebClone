@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Easypaisa from '@/assets/payment/easypaisa.svg'
-import Jazz from '@/assets/payment/jazz.png'
+import Jazz from '@/assets/payment/jazzcash.png'
 import visa from '@/assets/payment/visa.png'
-import unionpay from '@/assets/payment/unionpay.png'
-import bank from '@/assets/payment/directbanktransfer.png'
-import master from '@/assets/payment/master.svg'
+import unionpay from '@/assets/payment/union.png'
+import bank from '@/assets/payment/bank-transfer.png'
+import master from '@/assets/payment/mastercard.png'
+import paypak from '@/assets/payment/paypak.png'
 
 const PaymentLogos = () => {
   return (
@@ -26,7 +27,10 @@ const PaymentLogos = () => {
         <Image src={master} alt='Payment' className='' width={80} height={80} />
       </div>
       <div>
-        <Image src={bank} alt='Payment' className='rounded-3xl' width={100} height={100} />
+        <Image src={paypak} alt='Payment' className='' width={100} height={100} />
+      </div>
+      <div>
+        <Image src={bank} alt='Payment' className='' width={100} height={100} />
       </div>
     </div>
   )
