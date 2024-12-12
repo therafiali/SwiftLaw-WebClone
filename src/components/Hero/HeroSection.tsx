@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section className=''>
       <div className='relative h-screen flex w-full flex-col items-center justify-center px-4  sm:px-6 lg:px-8  '>
-        <div className=' '>
+        <div className='lg:mt-4 '>
           <Image src={pak} alt='' />
         </div>
 
