@@ -69,7 +69,7 @@ const PricingSection = () => {
             Choose the plan that&apos;s right for you{' '}
           </h3>
         </div>
-        <div className='flex justify-center mb-10'>
+        {/* <div className='flex justify-center mb-10'>
           <span className='mr-2 font-semibold'>Monthly</span>
           <label className='relative inline-flex items-center cursor-pointer'>
             <label className='inline-flex items-center cursor-pointer'>
@@ -87,7 +87,7 @@ const PricingSection = () => {
             </label>
           </label>
           <span className='ml-2 font-semibold'>Yearly</span>
-        </div>
+        </div> */}
         {/* for mobile */}
         <div className='grid md:hidden grid-cols-1  md:grid-cols-3  gap-4'>
           <div className='rounded-2xl border-[1px] p-6 bg-background text-center lg:flex lg:flex-col lg:justify-center relative border-border z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg] origin-right'>
