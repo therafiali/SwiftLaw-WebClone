@@ -54,9 +54,9 @@ const PremiumPlan = [
 const PricingSection = () => {
   const [isChecked, setIsChecked] = useState(false)
 
-  const handleToggleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setIsChecked(event.target.checked) // Update state based on the checkbox status
-  }
+  // const handleToggleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   setIsChecked(event.target.checked) // Update state based on the checkbox status
+  // }
 
   return (
     <div>
